@@ -34,7 +34,7 @@ MSA 도입은 조직 내 새로운 시도였으며, **NetflixOSS를 활용하기
 
 **RabbitMQ 단일 장애 지점(Single Point of Failure) 제거**
 - **이중화 구성 및 미러링 정책 적용** → 노드 장애 시에도 메시지 손실을 방지
-- **HAProxy를 이용한 Load Balancer로 구성** → 부하분산 및 클라이언트와 서버 간 연결 안정성 보장
+- **HAProxy를 Load Balancer로 구성** → 부하분산 및 클라이언트와 서버 간 연결 안정성 보장
 
 **서비스팀의 비효율적인 메시징 패턴 개선**
 - Publisher가 동일한 메시지를 여러 Subscriber에게 직접 전송하는 **비효율적인 Direct 방식**을 사용하고 있었음

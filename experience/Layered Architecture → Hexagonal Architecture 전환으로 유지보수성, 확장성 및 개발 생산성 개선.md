@@ -1,7 +1,7 @@
 # Layered Architecture → Hexagonal Architecture 전환으로 유지보수성, 확장성 및 개발 생산성 개선
 
 ### Situation
-운영 3년 차, Layered Architecture 기반의 시스템을 운영하는 개발팀에 새로 참여하게 되었습니다.   
+Layered Architecture 기반의 시스템을 운영하는 개발팀에 새로 참여하게 되었습니다.   
 코드 복잡도 문제를 호소하였고, 클래스 순환 참조를 이미 몇 번 겪은 상황이었습니다.  
 
 코드를 분석해보니, 
